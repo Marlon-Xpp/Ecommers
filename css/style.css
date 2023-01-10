@@ -3,8 +3,12 @@
     padding: 0;
 
 }
+body{
+    background-color: rgb(220, 228, 223);
+}
 .encabezado{
     background-color: aquamarine;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.407);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,9 +22,40 @@
     list-style: none;
 }
 .contenedor-general{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     max-width:1500px ;
-    min-width: 700px;
+    min-width: 650px;
     margin: 0 auto;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+    gap: 15px;
+}
+.parrafo{
+    /* background-color: beige; */
+    max-width: 300px;
+    text-align: justify;
+}
+.articulo{
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    /* grid-template-columns: repeat(3,1fr); */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pie-pagina{
+    background-color: rgb(40, 60, 120);
+    color: white;
+    height: 200px;
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
 }
