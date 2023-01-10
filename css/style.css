@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.encabezado{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.listado{
+    display: flex;
+    /* background-color: brown; */
+    gap: 30px;
+    font-size: 18px;
+    list-style: none;
+}
+.contenedor-general{
+    background-color: cornflowerblue;
+    max-width:1500px ;
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+}
